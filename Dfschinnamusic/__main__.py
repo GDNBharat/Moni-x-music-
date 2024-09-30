@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from AnonXMusic import LOGGER, app, userbot
-from AnonXMusic.core.call import Anony
-from AnonXMusic.misc import sudo
-from AnonXMusic.plugins import ALL_MODULES
-from AnonXMusic.utils.database import get_banned_users, get_gbanned
+from Dfschinnamusic import LOGGER, app, userbot
+from Dfschinnamusic.core.call import Dfs
+from Dfschinnamusic.misc import sudo
+from Dfschinnamusic.plugins import ALL_MODULES
+from Dfschinnamusic.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -36,25 +36,25 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("AnonXMusic.plugins" + all_module)
-    LOGGER("AnonXMusic.plugins").info("Successfully Imported Modules...")
+    LOGGER("Dfschinnamusic.plugins").info("Successfully Imported Modules...")
     await userbot.start()
-    await Anony.start()
+    await Dfs.start()
     try:
-        await Anony.stream_call("https://telegra.ph/file/cba632240b79207bf8a9c.mp4")
+        await Dfs.stream_call("https://telegra.ph/file/cba632240b79207bf8a9c.mp4")
     except NoActiveGroupCall:
-        LOGGER("AnonXMusic").error(
+        LOGGER("Dfschinnamusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
         )
         exit()
     except:
         pass
     await Anony.decorators()
-    LOGGER("AnonXMusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐂𝐡𝐢𝐧𝐧𝐚 ♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("Dfschinnamusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐂𝐡𝐢𝐧𝐧𝐚 ♨️\n╚═════ஜ۩۞۩ஜ════╝")
         
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("AnonXMusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐂𝐡𝐢𝐧𝐧𝐚 ♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("Dfschinnamusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐂𝐡𝐢𝐧𝐧𝐚 ♨️\n╚═════ஜ۩۞۩ஜ════╝")
 
 
 if __name__ == "__main__":
