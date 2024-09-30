@@ -11,7 +11,7 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
-from AnonXMusic.utils.formatters import time_to_seconds
+from Dfschinnamusic.utils.formatters import time_to_seconds
 
 
 def cookie_txt_file():
@@ -34,7 +34,7 @@ class DownloadError(Exception):
 
 
 def cookies():
-    cookie_dir = "AnonXMusic/utils/cookies"
+    cookie_dir = "Dfschinnamusic/utils/cookies"
     cookies_files = [f for f in os.listdir(cookie_dir) if f.endswith(".txt")]
 
     cookie_file = os.path.join(cookie_dir, random.choice(cookies_files))
