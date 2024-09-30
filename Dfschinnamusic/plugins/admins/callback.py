@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AnonXMusic import YouTube, app
-from AnonXMusic.core.call import Anony
-from AnonXMusic.misc import SUDOERS, db
-from AnonXMusic.utils.database import (
+from Dfschinnamusic import YouTube, app
+from Dfschinnamusic.core.call import Dfs
+from Dfschinnamusic.misc import SUDOERS, db
+from Dfschinnamusic.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -17,11 +17,11 @@ from AnonXMusic.utils.database import (
     music_on,
     set_loop,
 )
-from AnonXMusic.utils.decorators.language import languageCB
-from AnonXMusic.utils.formatters import seconds_to_min
-from AnonXMusic.utils.inline import close_markup, stream_markup, stream_markup_timer
-from AnonXMusic.utils.stream.autoclear import auto_clean
-from AnonXMusic.utils.thumbnails import get_thumb
+from Dfschinnamusic.utils.decorators.language import languageCB
+from Dfschinnamusic.utils.formatters import seconds_to_min
+from Dfschinnamusic.utils.inline import close_markup, stream_markup, stream_markup_timer
+from Dfschinnamusic.utils.stream.autoclear import auto_clean
+from Dfschinnamusic.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SUPPORT_CHAT,
@@ -177,7 +177,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                         reply_markup=close_markup(_),
                     )
                     try:
-                        return await Anony.stop_stream(chat_id)
+                        return await Dfs.stop_stream(chat_id)
                     except:
                         return
             except:
@@ -191,7 +191,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                         ),
                         reply_markup=close_markup(_),
                     )
-                    return await Anony.stop_stream(chat_id)
+                    return await Dfs.stop_stream(chat_id)
                 except:
                     return
         else:
@@ -223,7 +223,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             except:
                 image = None
             try:
-                await Anony.skip_stream(chat_id, link, video=status, image=image)
+                await Dfs.skip_stream(chat_id, link, video=status, image=image)
             except:
                 return await CallbackQuery.message.reply_text(_["call_6"])
             button = stream_markup(_, chat_id)
@@ -259,7 +259,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             except:
                 image = None
             try:
-                await Anony.skip_stream(chat_id, file_path, video=status, image=image)
+                await Dfs.skip_stream(chat_id, file_path, video=status, image=image)
             except:
                 return await mystic.edit_text(_["call_6"])
             button = stream_markup(_, chat_id)
@@ -280,7 +280,7 @@ async def del_back_playlist(client, CallbackQuery, _):
             await mystic.delete()
         elif "index_" in queued:
             try:
-                await Anony.skip_stream(chat_id, videoid, video=status)
+                await Dfs.skip_stream(chat_id, videoid, video=status)
             except:
                 return await CallbackQuery.message.reply_text(_["call_6"])
             button = stream_markup(_, chat_id)
@@ -303,7 +303,7 @@ async def del_back_playlist(client, CallbackQuery, _):
                 except:
                     image = None
             try:
-                await Anony.skip_stream(chat_id, queued, video=status, image=image)
+                await Dfs.skip_stream(chat_id, queued, video=status, image=image)
             except:
                 return await CallbackQuery.message.reply_text(_["call_6"])
             if videoid == "telegram":
