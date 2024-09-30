@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/a950dba51f34f48ddbf51.jpg">
+  <img src="https://envs.sh/SMt.jpg">
 </p>
 
 <h3 align="center">
