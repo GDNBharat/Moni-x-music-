@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from AnonXMusic import app
-from AnonXMusic.misc import SUDOERS
-from AnonXMusic.utils.database import add_off, add_on
-from AnonXMusic.utils.decorators.language import language
+from Dfschinnamusic import app
+from Dfschinnamusic.misc import SUDOERS
+from Dfschinnamusic.utils.database import add_off, add_on
+from Dfschinnamusic.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)
