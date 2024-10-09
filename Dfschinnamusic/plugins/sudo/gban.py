@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.misc import SUDOERS
-from AnonXMusic.utils import get_readable_time
-from AnonXMusic.utils.database import (
+from Dfschinnamusic import app
+from Dfschinnamusic.misc import SUDOERS
+from Dfschinnamusic.utils import get_readable_time
+from Dfschinnamusic.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from AnonXMusic.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from AnonXMusic.utils.decorators.language import language
-from AnonXMusic.utils.extraction import extract_user
+from Dfschinnamusic.utils.decorators.language import language
+from Dfschinnamusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
