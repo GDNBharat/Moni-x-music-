@@ -3,7 +3,7 @@ from strings import get_string
 from Dfschinnamusic import app
 from Dfschinnamusic.misc import SUDOERS
 from config import SUPPORT_CHAT
-from AnonXMusic.utils.database import get_lang, is_maintenance
+from Dfschinnamusic.utils.database import get_lang, is_maintenance
 
 
 def language(mystic):
