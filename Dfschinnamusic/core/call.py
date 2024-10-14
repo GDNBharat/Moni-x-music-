@@ -37,7 +37,7 @@ from Dfschinnamusic.utils.database import (
 from Dfschinnamusic.utils.exceptions import AssistantErr
 from Dfschinnamusic.utils.formatters import check_duration, seconds_to_min, speed_converter
 from Dfschinnamusic.utils.inline.play import stream_markup
-from dfschinnamusic.utils.stream.autoclear import auto_clean
+from Dfschinnamusic.utils.stream.autoclear import auto_clean
 from Dfschinnamusic.utils.thumbnails import get_thumb
 from strings import get_string
 
