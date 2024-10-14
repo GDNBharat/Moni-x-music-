@@ -35,7 +35,7 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("AnonXMusic.plugins" + all_module)
+        importlib.import_module("Dfschinnamusic.plugins" + all_module)
     LOGGER("Dfschinnamusic.plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await Dfs.start()
