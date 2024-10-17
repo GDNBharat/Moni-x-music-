@@ -20,11 +20,11 @@
 </p>
 
 <p align="center">
-<a href="https://telegram.me/BTSChinna"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/TeluguTelegramFriends"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <p align="center">
-<a href="https://telegram.me/BTSChinna"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/TeluguTelegramFriends"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
  your [Necessary Variables](https://github.com/doraemon890/ANNIE-X-MUSIC/blob/Master/sample.env)
