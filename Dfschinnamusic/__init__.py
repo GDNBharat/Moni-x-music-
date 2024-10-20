@@ -1,4 +1,4 @@
-from Dfschinnamusic.core.bot import Dfs
+from Dfschinnamusic.core.bot import Dfschinnamusic 
 from Dfschinnamusic.core.dir import dirr
 from Dfschinnamusic.core.git import git
 from Dfschinnamusic.core.userbot import Userbot
@@ -11,7 +11,7 @@ dirr()
 dbb()
 heroku()
 
-app = Dfs()
+app = Dfschinnamusic ()
 userbot = Userbot()
 
 
