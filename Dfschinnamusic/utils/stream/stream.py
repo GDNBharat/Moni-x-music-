@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup
 
 import config
 from Dfschinnamusic import Carbon, YouTube, app
-from Dfschinnamusic.core.call import Anony
+from Dfschinnamusic.core.call import Dfs
 from Dfschinnamusic.misc import db
 from Dfschinnamusic.utils.database import add_active_video_chat, is_active_chat
 from Dfschinnamusic.utils.exceptions import AssistantErr
