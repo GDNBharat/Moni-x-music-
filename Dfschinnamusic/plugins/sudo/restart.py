@@ -18,7 +18,7 @@ from Dfschinnamusic.utils.database import (
     remove_active_video_chat,
 )
 from Dfschinnamusic.utils.decorators.language import language
-from Dfschinnamusic.utils.pastebin import Dfs
+from Dfschinnamusic.utils.pastebin import Dfsbin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
