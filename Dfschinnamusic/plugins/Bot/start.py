@@ -35,7 +35,7 @@ async def start_pm(client, message: Message, _):
             keyboard = help_pannel(_)
             await message.reply_sticker("CAACAgEAAxkBAAJYdWZLJQqyG4fMdFFHFbTZDZPczqfnAAJUAgACODjZR-6jaMt58aQENQQ")
             return await message.reply_video(
-                video="https://envs.sh/pcg.mp4",
+                video="https://envs.sh/pLr.mp4",
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
             )
@@ -88,7 +88,7 @@ async def start_pm(client, message: Message, _):
         out = private_panel(_)
         await message.reply_sticker("CAACAgEAAxkBAAJYdWZLJQqyG4fMdFFHFbTZDZPczqfnAAJUAgACODjZR-6jaMt58aQENQQ")
         await message.reply_video(
-            video="https://envs.sh/pcg.mp4",
+            video="https://envs.sh/pLr.mp4",
             caption=_["start_2"].format(message.from_user.mention, app.mention),
             reply_markup=InlineKeyboardMarkup(out),
         )
