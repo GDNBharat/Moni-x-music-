@@ -1,7 +1,7 @@
 import asyncio
 from pyrogram import filters, Client
-from Zaid.modules.help import *
-from Zaid.helper.utility import get_arg
+from Dfschinnamusic.modules.help import *
+from Dfschinnamusic.helper.utility import get_arg
 from pyrogram.types import *
 from pyrogram import __version__
 import os
