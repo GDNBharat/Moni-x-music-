@@ -28,13 +28,14 @@ from strings import get_string
 @LanguageStart
 async def start_pm(client, message: Message, _):
     await add_served_user(message.from_user.id)
+    await message.react("❤")
     if len(message.text.split()) > 1:
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
             await message.reply_sticker("CAACAgEAAxkBAAJYdWZLJQqyG4fMdFFHFbTZDZPczqfnAAJUAgACODjZR-6jaMt58aQENQQ")
             return await message.reply_video(
-                video="https://telegra.ph/file/d2532972423ce5c4b632e.mp4",
+                video="https://envs.sh/pcg.mp4",
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
             )
@@ -87,7 +88,7 @@ async def start_pm(client, message: Message, _):
         out = private_panel(_)
         await message.reply_sticker("CAACAgEAAxkBAAJYdWZLJQqyG4fMdFFHFbTZDZPczqfnAAJUAgACODjZR-6jaMt58aQENQQ")
         await message.reply_video(
-            video="https://telegra.ph/file/d2532972423ce5c4b632e.mp4",
+            video="https://envs.sh/pcg.mp4",
             caption=_["start_2"].format(message.from_user.mention, app.mention),
             reply_markup=InlineKeyboardMarkup(out),
         )
