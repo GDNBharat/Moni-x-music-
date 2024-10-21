@@ -38,7 +38,7 @@ async def init():
         importlib.import_module("Dfschinnamusic.plugins" + all_module)
     LOGGER("Dfschinnamusic.plugins").info("Successfully Imported Modules...")
     await userbot.start()
-    await Hotty.start()
+    await Dfs.start()
     try:
         await Dfs.stream_call("https://graph.org/file/e999c40cb700e7c684b75.mp4")
     except NoActiveGroupCall:
