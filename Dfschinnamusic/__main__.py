@@ -48,7 +48,7 @@ async def init():
         exit()
     except:
         pass
-    await Anony.decorators()
+    await Dfs.decorators()
     LOGGER("Dfschinnamusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐂𝐡𝐢𝐧𝐧𝐚 ♨️\n╚═════ஜ۩۞۩ஜ════╝")
         
     await idle()
