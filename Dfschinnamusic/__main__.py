@@ -1,6 +1,6 @@
 import asyncio
 import importlib
-
+from sys import argv
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
@@ -38,9 +38,9 @@ async def init():
         importlib.import_module("Dfschinnamusic.plugins" + all_module)
     LOGGER("Dfschinnamusic.plugins").info("Successfully Imported Modules...")
     await userbot.start()
-    await Dfs.start()
+    await Hotty.start()
     try:
-        await Dfs.stream_call("https://telegra.ph/file/cba632240b79207bf8a9c.mp4")
+        await Dfs.stream_call("https://graph.org/file/e999c40cb700e7c684b75.mp4")
     except NoActiveGroupCall:
         LOGGER("Dfschinnamusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
@@ -49,12 +49,13 @@ async def init():
     except:
         pass
     await Dfs.decorators()
-    LOGGER("Dfschinnamusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐂𝐡𝐢𝐧𝐧𝐚 ♨️\n╚═════ஜ۩۞۩ஜ════╝")
-        
+    LOGGER("Dfschinnamusic").info(
+        "ᴅʀᴏᴘ ʏᴏᴜʀ ɢɪʀʟꜰʀɪᴇɴᴅ'ꜱ ɴᴜᴍʙᴇʀ ᴀᴛ @chinna_op ᴊᴏɪɴ @DFSchinnaop , @chinna_op ꜰᴏʀ ᴀɴʏ ɪꜱꜱᴜᴇꜱ"
+    )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("Dfschinnamusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐂𝐡𝐢𝐧𝐧𝐚 ♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    LOGGER("Dfschinnamusic").info("Stopping chinna Music Bot...")
 
 
 if __name__ == "__main__":
