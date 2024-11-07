@@ -18,8 +18,6 @@ dbb()
 # Heroku APP
 heroku()
 
-# Load Sudo Users from DB
-sudo()
 # Bot Client
 app = Dfs()
 
