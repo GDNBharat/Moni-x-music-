@@ -48,11 +48,11 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 # Load session strings from environment variables
-STRING1 = getenv("STRING_SESSION",  "BQGwyGIAbkJa8LfVmujm8nBgj84o_BzxUnfcJGhKmpoYIFU2ffT4gfrCEKWefJIg-DOii1usWJSkkFf272OPX3dH9XZopQ2XOumsXW6IvHYqBSY6j6jBLdxMr_3yHzLi_BhfB0cEeUq6GVDndUHt94j1aMQ2vjjxNtM6IfH5T-N2mQHcdeeNkWOzQ1Pd29gS-AtrrTnJ8rmhvTs8Rh5VWVN26CPG9uc-TW1DN6ovC6pNXa84xFKR2uuBtuvegzUxxoRpUZLgAeAG05A7mZH9MGLalO1Cc-oRoLTvIPoRU8Et48TEqEN5yYXaxxZEzsEiWn9AWhcaafQfAPBOs3Mpnck-EpltdQAAAAHETnMdAA")
-STRING2 = getenv("STRING_SESSION2",) 
-STRING3 = getenv("STRING_SESSION3",)
-STRING4 = getenv("STRING_SESSION4",)
-STRING5 = getenv("STRING_SESSION5",) 
+session_strings1 = getenv("STRING_SESSION",  "BQGwyGIAbkJa8LfVmujm8nBgj84o_BzxUnfcJGhKmpoYIFU2ffT4gfrCEKWefJIg-DOii1usWJSkkFf272OPX3dH9XZopQ2XOumsXW6IvHYqBSY6j6jBLdxMr_3yHzLi_BhfB0cEeUq6GVDndUHt94j1aMQ2vjjxNtM6IfH5T-N2mQHcdeeNkWOzQ1Pd29gS-AtrrTnJ8rmhvTs8Rh5VWVN26CPG9uc-TW1DN6ovC6pNXa84xFKR2uuBtuvegzUxxoRpUZLgAeAG05A7mZH9MGLalO1Cc-oRoLTvIPoRU8Et48TEqEN5yYXaxxZEzsEiWn9AWhcaafQfAPBOs3Mpnck-EpltdQAAAAHETnMdAA")
+session_strings2 = getenv("STRING_SESSION2",) 
+session_strings3 = getenv("STRING_SESSION3",)
+session_strings4 = getenv("STRING_SESSION4",)
+session_strings5 = getenv("STRING_SESSION5",) 
 
 # Ensure the environment variables are loaded
 if not all([STRING1]):
