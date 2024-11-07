@@ -18,6 +18,7 @@ userbot = Userbot()
 from .platforms import *
 
 Apple = AppleAPI()
+JioSavan = jioSaavn()
 Carbon = CarbonAPI()
 SoundCloud = SoundAPI()
 Spotify = SpotifyAPI()
