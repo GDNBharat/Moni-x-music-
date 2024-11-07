@@ -60,6 +60,7 @@ if not all([STRING1]):
 
 
 BANNED_USERS = filters.user()
+TEMP_DB_FOLDER = "tempdb"
 adminlist = {}
 lyrical = {}
 votemode = {}
