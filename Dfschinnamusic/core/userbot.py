@@ -14,7 +14,7 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.clients = []
-        session_strings = config.STRING_SESSIONS
+        strings_session = config.STRING_SESSIONS
 
         for i, session in enumerate(session_strings, start=1):
 
