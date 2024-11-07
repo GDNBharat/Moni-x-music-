@@ -613,4 +613,4 @@ class Call:
                 await self.change_stream(client, update.chat_id)
 
 
-Yukki = Call()
+Dfs = Call()
