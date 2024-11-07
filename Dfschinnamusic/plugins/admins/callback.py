@@ -21,7 +21,7 @@ from Dfschinnamusic.utils.decorators.language import languageCB
 from Dfschinnamusic.utils.formatters import seconds_to_min
 from Dfschinnamusic.utils.inline import close_markup, stream_markup, stream_markup_timer
 from Dfschinnamusic.utils.stream.autoclear import auto_clean
-from Dfschinnamusic.utils.thumbnails import get_thumb
+from Dfschinnamusic.utils.thumbnails import gen_thumb
 from config import (
     BANNED_USERS,
     SUPPORT_CHAT,
