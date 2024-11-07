@@ -1,6 +1,6 @@
-from pyrogram import filters
 from pyrogram.types import Message
 
+from strings import get_string, command
 from Dfschinnamusic import app
 from Dfschinnamusic.misc import SUDOERS
 from Dfschinnamusic.utils.database import (
@@ -9,10 +9,9 @@ from Dfschinnamusic.utils.database import (
     maintenance_off,
     maintenance_on,
 )
-from strings import get_string
 
 
-@app.on_message(filters.command(["maintenance"]) & SUDOERS)
+@app.on_message(command("MAINTENANCE_COMMAND") & SUDOERS)
 async def maintenance(client, message: Message):
     try:
         language = await get_lang(message.chat.id)
@@ -22,17 +21,19 @@ async def maintenance(client, message: Message):
     usage = _["maint_1"]
     if len(message.command) != 2:
         return await message.reply_text(usage)
-    state = message.text.split(None, 1)[1].strip().lower()
+    message.chat.id
+    state = message.text.split(None, 1)[1].strip()
+    state = state.lower()
     if state == "enable":
         if await is_maintenance() is False:
-            await message.reply_text(_["maint_4"])
+            await message.reply_text(_["maint_6"])
         else:
             await maintenance_on()
-            await message.reply_text(_["maint_2"].format(app.mention))
+            await message.reply_text(_["maint_2"])
     elif state == "disable":
         if await is_maintenance() is False:
             await maintenance_off()
-            await message.reply_text(_["maint_3"].format(app.mention))
+            await message.reply_text(_["maint_3"])
         else:
             await message.reply_text(_["maint_5"])
     else:
