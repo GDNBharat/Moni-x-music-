@@ -55,7 +55,7 @@ session_strings4 = getenv("STRING_SESSION4",)
 session_strings5 = getenv("STRING_SESSION5",) 
 
 # Ensure the environment variables are loaded
-if not all([STRING1]):
+if not all([STRING_SESSION1]):
     raise ValueError("One or more STRING_SESSION environment variables are missing")
 
 
