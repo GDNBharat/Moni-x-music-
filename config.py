@@ -19,17 +19,17 @@ load_dotenv()
 
 # Get it from my.telegram.org
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "28362850"))
 
-API_HASH = getenv("API_HASH")
+API_HASH = getenv("API_HASH", "34f9cb93364db16fc45d003e4c81d97a")
 
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "6829228356:AAEj6Svzyol89q_qFGVBO36MHoELrHkEhlo")
 
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://VamsixD:VamsixD@vamsi.x7gyybv.mongodb.net/?retryWrites=true&w=majority")
 
 CLEANMODE_DELETE_MINS = int(
     getenv("CLEANMODE_MINS", "5")
@@ -53,7 +53,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/TheTeamVivek/Extra-Plugin",
+    "https://github.com/dattudd/Anonxmusic-",
 )
 # Fill here the external plugins repo where plugins that you want to load
 
@@ -70,12 +70,12 @@ SONG_DOWNLOAD_DURATION = int(
 
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = getenv("LOG_GROUP_ID", "")
+LOG_GROUP_ID = getenv("LOG_GROUP_ID", "-1002141779241")
 
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6815918609").split())
+    map(int, getenv("OWNER_ID", "6896043885").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -88,7 +88,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TheTeamVivek/YukkiMusic",
+    "https://github.com/dattudd/Anonxmusic-",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -101,10 +101,10 @@ GIT_TOKEN = getenv(
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/TheTeamVivek"
+    "SUPPORT_CHANNEL", "https://t.me/Dfschinnaop"
 )  # Example:- https://t.me/TheTeamVivek
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/TheTeamVk"
+    "SUPPORT_GROUP", "https://t.me/Dfschinnaop"
 )  # Example:- https://t.me/TheTeamVk
 
 
@@ -169,7 +169,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING_SESSIONS = list(map(str.strip, getenv("STRING_SESSIONS", None).split(",")))
+STRING_SESSIONS = list(map(str.strip, getenv("STRING_SESSIONS", "BQGwyGIAbkJa8LfVmujm8nBgj84o_BzxUnfcJGhKmpoYIFU2ffT4gfrCEKWefJIg-DOii1usWJSkkFf272OPX3dH9XZopQ2XOumsXW6IvHYqBSY6j6jBLdxMr_3yHzLi_BhfB0cEeUq6GVDndUHt94j1aMQ2vjjxNtM6IfH5T-N2mQHcdeeNkWOzQ1Pd29gS-AtrrTnJ8rmhvTs8Rh5VWVN26CPG9uc-TW1DN6ovC6pNXa84xFKR2uuBtuvegzUxxoRpUZLgAeAG05A7mZH9MGLalO1Cc-oRoLTvIPoRU8Et48TEqEN5yYXaxxZEzsEiWn9AWhcaafQfAPBOs3Mpnck-EpltdQAAAAHETnMdAA")
 
 
 #  __     ___    _ _  ___  _______   __  __ _    _  _____ _____ _____
