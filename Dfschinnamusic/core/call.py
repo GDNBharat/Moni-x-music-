@@ -43,8 +43,8 @@ from pyrogram.errors import (
     UserAlreadyParticipant,
 )
 
-from YukkiMusic.core.userbot import assistants
-from YukkiMusic.utils.database import (
+from Dfschinnamusic.core.userbot import assistants
+from Dfschinnamusic.utils.database import (
     get_assistant,
     get_lang,
     set_assistant,
