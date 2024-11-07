@@ -1,8 +1,8 @@
-from AnonXMusic.core.bot import Dfs
-from AnonXMusic.core.dir import dirr
-from AnonXMusic.core.git import git
-from AnonXMusic.core.userbot import Userbot
-from AnonXMusic.misc import dbb, heroku
+from Dfschinnamusic.core.bot import Dfs
+from Dfschinnamusic.core.dir import dirr
+from Dfschinnamusic.core.git import git
+from Dfschinnamusic.core.userbot import Userbot
+from Dfschinnamusic.misc import dbb, heroku
 
 from .logging import LOGGER
 
