@@ -1,20 +1,42 @@
+import logging
 import os
+from os import listdir, mkdir
 
-from ..logging import LOGGER
+from config import TEMP_DB_FOLDER
+
+# remove all files on startup  that contains these extentions
+files = [
+    ".jpg",
+    ".jpeg",
+    ".mp3",
+    ".m4a",
+    ".mp4",
+    ".webm",
+    ".png",
+    ".session",
+    ".session-journal",
+]
 
 
 def dirr():
+    downloads_folder = "downloads"
+    cache_folder = "cache"
+
     for file in os.listdir():
-        if file.endswith(".jpg"):
-            os.remove(file)
-        elif file.endswith(".jpeg"):
-            os.remove(file)
-        elif file.endswith(".png"):
+        if any(file.endswith(ext) for ext in files):
             os.remove(file)
 
-    if "downloads" not in os.listdir():
-        os.mkdir("downloads")
-    if "cache" not in os.listdir():
-        os.mkdir("cache")
+    if downloads_folder not in listdir():
+        mkdir(downloads_folder)
 
-    LOGGER(__name__).info("Directories Updated.")
+    if cache_folder not in listdir():
+        mkdir(cache_folder)
+
+    if TEMP_DB_FOLDER not in listdir():
+        mkdir(TEMP_DB_FOLDER)
+
+    logging.info("Directories Updated.")
+
+
+if __name__ == "__main__":
+    dirr()
