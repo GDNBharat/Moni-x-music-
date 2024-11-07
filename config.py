@@ -161,7 +161,7 @@ SET_CMDS = getenv("SET_CMDS", "False")
 
 
 # You'll need a Pyrogram String Session for these vars. Generate String from our session generator bot @YukkiStringBot
-STRING_SESSIONS = list(map(str.strip, getenv ("STRING_SESSIONS", "BQGwyGIAbkJa8LfVmujm8nBgj84o_BzxUnfcJGhKmpoYIFU2ffT4gfrCEKWefJIg-DOii1usWJSkkFf272OPX3dH9XZopQ2XOumsXW6IvHYqBSY6j6jBLdxMr_3yHzLi_BhfB0cEeUq6GVDndUHt94j1aMQ2vjjxNtM6IfH5T-N2mQHcdeeNkWOzQ1Pd29gS-AtrrTnJ8rmhvTs8Rh5VWVN26CPG9uc-TW1DN6ovC6pNXa84xFKR2uuBtuvegzUxxoRpUZLgAeAG05A7mZH9MGLalO1Cc-oRoLTvIPoRU8Et48TEqEN5yYXaxxZEzsEiWn9AWhcaafQfAPBOs3Mpnck-EpltdQAAAAHETnMdAA").spilt()
+STRING_SESSIONS = list(map(str.strip, getenv ("STRING_SESSIONS", ("BQGwyGIAbkJa8LfVmujm8nBgj84o_BzxUnfcJGhKmpoYIFU2ffT4gfrCEKWefJIg-DOii1usWJSkkFf272OPX3dH9XZopQ2XOumsXW6IvHYqBSY6j6jBLdxMr_3yHzLi_BhfB0cEeUq6GVDndUHt94j1aMQ2vjjxNtM6IfH5T-N2mQHcdeeNkWOzQ1Pd29gS-AtrrTnJ8rmhvTs8Rh5VWVN26CPG9uc-TW1DN6ovC6pNXa84xFKR2uuBtuvegzUxxoRpUZLgAeAG05A7mZH9MGLalO1Cc-oRoLTvIPoRU8Et48TEqEN5yYXaxxZEzsEiWn9AWhcaafQfAPBOs3Mpnck-EpltdQAAAAHETnMdAA").spilt()
 
 
 #  __     ___    _ _  ___  _______   __  __ _    _  _____ _____ _____
