@@ -9,7 +9,7 @@ from Dfschinnamusic.utils.database import get_loop
 from Dfschinnamusic.utils.decorators import AdminRightsCheck
 from Dfschinnamusic.utils.inline import close_markup, stream_markup
 from Dfschinnamusic.utils.stream.autoclear import auto_clean
-from Dfschinnamusic.utils.thumbnails import get_thumb
+from Dfschinnamusic.utils.thumbnails import gen_thumb
 from config import BANNED_USERS
 
 
