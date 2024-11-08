@@ -1,5 +1,5 @@
 from Dfschinnamusic import app
-from Dfschinnamusic.utils.database import get_cmode
+from Dfschinnamusic.utils.database import gen_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
