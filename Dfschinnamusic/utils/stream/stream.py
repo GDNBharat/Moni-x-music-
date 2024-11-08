@@ -13,7 +13,7 @@ from Dfschinnamusic.utils.exceptions import AssistantErr
 from Dfschinnamusic.utils.inline import aq_markup, close_markup, stream_markup
 from Dfschinnamusic.utils.pastebin import DfsBin
 from Dfschinnamusic.utils.stream.queue import put_queue, put_queue_index
-from Dfschinnamusic.utils.thumbnails import get_thumb
+from Dfschinnamusic.utils.thumbnails import gen_thumb
 
 
 async def stream(
