@@ -11,7 +11,7 @@ dirr()
 dbb()
 heroku()
 
-app = Dfs()
+app = Dfschinnamusic ()
 userbot = Userbot()
 
 
