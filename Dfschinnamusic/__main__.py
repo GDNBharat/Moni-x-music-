@@ -55,7 +55,7 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("Dfschinnamusic").info("Stopping AnonX Music Bot...")
+    LOGGER("Dfschinnamusic").info("Stopping Dfs Music Bot...")
 
 
 if __name__ == "__main__":
