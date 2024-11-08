@@ -2,7 +2,7 @@ from os import path
 
 from yt_dlp import YoutubeDL
 
-from Dfschinnamusic.utils.formatters import seconds_to_min
+from Dfschinnamusic.utils.formatters import time_to_seconds
 
 
 class SoundAPI:
