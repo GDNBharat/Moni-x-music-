@@ -1,6 +1,6 @@
 import asyncio
 import importlib
-from sys import argv
+
 from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await Dfs.start()
     try:
-        await Dfs.stream_call("https://graph.org/file/e999c40cb700e7c684b75.mp4")
+        await Dfs.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
         LOGGER("Dfschinnamusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
@@ -50,12 +50,12 @@ async def init():
         pass
     await Dfs.decorators()
     LOGGER("Dfschinnamusic").info(
-        "ᴅʀᴏᴘ ʏᴏᴜʀ ɢɪʀʟꜰʀɪᴇɴᴅ'ꜱ ɴᴜᴍʙᴇʀ ᴀᴛ @chinna_op ᴊᴏɪɴ @DFSchinnaop , @chinna_op ꜰᴏʀ ᴀɴʏ ɪꜱꜱᴜᴇꜱ"
+        "\x41\x6e\x6f\x6e\x58\x20\x4d\x75\x73\x69\x63\x20\x42\x6f\x74\x20\x53\x74\x61\x72\x74\x65\x64\x20\x53\x75\x63\x63\x65\x73\x73\x66\x75\x6c\x6c\x79\x2e\n\n\x44\x6f\x6e'\x74\x20\x66\x6f\x72\x67\x65\x74\x20\x74\x6f\x20\x76\x69\x73\x69\x74\x20\x40\x46\x61\x6c\x6c\x65\x6e\x41\x73\x73\x6f\x63\x69\x61\x74\x69\x6f\x6e"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("Dfschinnamusic").info("Stopping chinna Music Bot...")
+    LOGGER("Dfschinnamusic").info("Stopping AnonX Music Bot...")
 
 
 if __name__ == "__main__":
