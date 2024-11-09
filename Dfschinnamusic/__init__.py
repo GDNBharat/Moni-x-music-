@@ -15,7 +15,7 @@ app = Dfs ()
 userbot = Userbot()
 
 
-for platform import*
+from .platforms import *
 
 
 Apple = AppleAPI()
