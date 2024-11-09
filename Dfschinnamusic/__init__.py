@@ -15,7 +15,6 @@ app = Dfs ()
 userbot = Userbot()
 
 
-from .platforms import *
 
 Apple = AppleAPI()
 Carbon = CarbonAPI()
