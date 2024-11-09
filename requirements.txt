@@ -8,6 +8,7 @@ gitpython
 hachoir
 heroku3
 motor
+NTgCalls
 pillow
 psutil
 py-tgcalls==2.0.4
