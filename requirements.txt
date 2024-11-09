@@ -8,10 +8,10 @@ gitpython
 hachoir
 heroku3
 motor
-NTgCalls
+NTgCalls=1.1.2
 pillow
 psutil
-py-tgcalls==2.0.4
+py-tgcalls==1.2.9
 pykeyboard
 pyrofork
 python-dotenv
