@@ -48,7 +48,7 @@ async def skip(cli, message: Message, _, chat_id):
                                         ),
                                         reply_markup=close_markup(_),
                                     )
-                                    await Anony.stop_stream(chat_id)
+                                    await Dfs.stop_stream(chat_id)
                                 except:
                                     return
                                 break
@@ -217,7 +217,7 @@ async def skip(cli, message: Message, _, chat_id):
             db[chat_id][0]["markup"] = "tg"
         else:
             button = stream_markup(_, chat_id)
-            img = await get_thumb(videoid)
+            img = await gen_thumb(videoid)
             run = await message.reply_photo(
                 photo=img,
                 caption=_["stream_1"].format(
