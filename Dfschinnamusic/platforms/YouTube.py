@@ -11,7 +11,7 @@ from youtubesearchpython.__future__ import VideosSearch
 from yt_dlp import YoutubeDL
 
 
-from Dfschinnamusic.utils.formatters import time_to_seconds, seconds_to_min
+from Dfschinnamusic.utils.formatters import time_to_seconds 
 
 
 def cookies():
