@@ -53,4 +53,7 @@ lexica-api==1.5.7
 lxml==4.9.4
 termux
 libxml2
-
+setuptools
+colorama
+requests
+tqdm
