@@ -51,3 +51,4 @@ gtts
 py-tgcalls==0.9.7
 lexica-api==1.5.7
 lxml==4.9.4
+termux
