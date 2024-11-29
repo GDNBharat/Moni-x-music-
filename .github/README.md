@@ -16,7 +16,7 @@
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/GDNBharat/Moni-x-music-"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-bringle?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 <p align="center">
-  <img src="https://envs.sh/T1t.jpg">
+  <img src="https://graph.org/file/657982067208bfb42ab98-6373069b6a0dfd7ef2.jpg">
 </p>
 
 <p align="center">
