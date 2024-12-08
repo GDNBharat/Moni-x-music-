@@ -42,6 +42,7 @@ pyrogram==2.0.106
 python-dotenv
 python-telegram-bot==21.1.1
 python-whois
+py-tgcalls==1.2.9
 pyshorteners
 pyttsx3
 pytz
