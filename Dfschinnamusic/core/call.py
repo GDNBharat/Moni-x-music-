@@ -62,7 +62,7 @@ class Call(PyTgCalls):
         )
         self.one = PyTgCalls(
             self.userbot1,
-            cache_duration=150,
+            cache_duration=100,
         )
         self.userbot2 = Client(
             name="DfsAss2",
@@ -72,7 +72,7 @@ class Call(PyTgCalls):
         )
         self.two = PyTgCalls(
             self.userbot2,
-            cache_duration=150,
+            cache_duration=100,
         )
         self.userbot3 = Client(
             name="DfsAss3",
@@ -82,7 +82,7 @@ class Call(PyTgCalls):
         )
         self.three = PyTgCalls(
             self.userbot3,
-            cache_duration=150,
+            cache_duration=100,
         )
         self.userbot4 = Client(
             name="DfsAss4",
@@ -92,7 +92,7 @@ class Call(PyTgCalls):
         )
         self.four = PyTgCalls(
             self.userbot4,
-            cache_duration=150,
+            cache_duration=100,
         )
         self.userbot5 = Client(
             name="DfsAss5",
@@ -102,7 +102,7 @@ class Call(PyTgCalls):
         )
         self.five = PyTgCalls(
             self.userbot5,
-            cache_duration=150,
+            cache_duration=100,
         )
 
     async def pause_stream(self, chat_id: int):
