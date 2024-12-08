@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await Dfs.start()
     try:
-        await Dfs.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Dfs.stream_call("https://telegra.ph/file/cba632240b79207bf8a9c.mp4")
     except NoActiveGroupCall:
         LOGGER("Dfschinnamusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
@@ -49,12 +49,13 @@ async def init():
     except:
         pass
     await Dfs.decorators()
-    LOGGER("Dfschinnamusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐂𝐡𝐢𝐧𝐧𝐚 ♨️\n╚═════ஜ۩۞۩ஜ════╝") 
+    LOGGER("Dfschinnamusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐂𝐡𝐢𝐧𝐧𝐚 ♨️\n╚═════ஜ۩۞۩ஜ════╝")
+        
     await idle()
     await app.stop()
     await userbot.stop()
     LOGGER("Dfschinnamusic").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐂𝐡𝐢𝐧𝐧𝐚 ♨️\n╚═════ஜ۩۞۩ஜ════╝")
-        
+
 
 if __name__ == "__main__":
     asyncio.get_event_loop().run_until_complete(init())
