@@ -50,7 +50,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 104857600))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 # Load session strings from environment variables
-STRING1 = getenv("STRING_SESSION",  "BQGwyGIAKZ-GlafpWJjnL9X6g3IE69I5hqEwtKAMAtDHCRK98g7OLcLix9L--k7vPgy703pQjVhlqziolpeFRbr9FgdAxfeU9HEeuJ6Q_Wyq-p5dR28o-QiKFKd5ZZdo7QyVsxETP9kuMYDoMhcxPDaZR3eBU2V8fn1jCHtNoaTxJ5wmrpqHM-OUg7dbQjWd-BfyZT4b6I1sFdVJdp2UI-UaQnEC14Lc4t9B2_pHEYGa9I1HLJ3OxtZaZmNgv4gbHceoFPI6hVsqqZ_J5PcEHKNaknz4w_RKlzeOhESU3UdBdK-ZQ4WCUHuY73WghHETNl_-YxybFP1QILYdCttOHdF_o21X8QAAAAHETnMdAA")
+STRING1 = getenv("STRING_SESSION",  "BQGwyGIAtJiEDMta1T6um05QEujLXqnTcyHu7EfCNeFdsnqddW3_Y2bQd0k8dJjdaeMginW5rWGc28-61_IA8Huc8SZckoRpzq4I1j4NyplftY4k0Xrb7POwA-9kH3jd52KVFEhOeub1FvN3GDwpslU26XYIdOD1WTw2LXQ441epjZ30NargbYD972DLW4MhTTYDYYrdS15hvqUczAhKZpfB7hFdbPN0pY0C7il2wuQeKGL4GKd3z6NfQFW172AXK3e8vTR7mO91mBRmlLgON8lAtJAbfW3FOX06CCMXJsRFF_iwvf8pNT0IRFLA23nbg7MrSPQLfrM9dUmMd9UzhM-5smmJeAAAAAHETnMdAA")
 STRING2 = getenv("STRING_SESSION2",) 
 STRING3 = getenv("STRING_SESSION3",)
 STRING4 = getenv("STRING_SESSION4",)
@@ -68,7 +68,7 @@ votemode = {}
 autoclean = []
 confirmer = {}
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/8d7b534e34e13316a7dd2.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/924ecdfd5088d6d77b045-8ac4e9b2e33cf83368.jpg")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://telegra.ph/file/ca95213f8c1dd9a19c239.jpg")
 PLAYLIST_IMG_URL = "https://telegra.ph/file/8d7b534e34e13316a7dd2.jpg"
 STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
