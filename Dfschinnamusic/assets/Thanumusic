@@ -1,0 +1,14 @@
+# Netscape HTTP Cookie File
+# https://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+.youtube.com	TRUE	/	TRUE	0	YSC	sj53zgCDx8A
+.youtube.com	TRUE	/	TRUE	1750169290	VISITOR_INFO1_LIVE	mXqVK-KcSc0
+.youtube.com	TRUE	/	TRUE	1750169290	VISITOR_PRIVACY_METADATA	CgJJThIEGgAgXg%3D%3D
+.youtube.com	TRUE	/	TRUE	1750168869	__Secure-ROLLOUT_TOKEN	CM2jvrul-MfaqgEQxKSysv-zigMYxKSysv-zigM%3D
+.youtube.com	TRUE	/	TRUE	1734618685	GPS	1
+.youtube.com	TRUE	/	TRUE	1769177319	PREF	f6=40000000&tz=Asia.Kolkata&f7=100
+.youtube.com	TRUE	/	TRUE	1734617917	CONSISTENCY	AKreu9uJxPdyHj9GhU4Rrh50sD0Zd31uNesIw5C83dp9eBQcnOND75MxZ2zv7W9loqKZsUn3a3BItpZSwrrlNQ
+.youtube.com	TRUE	/	FALSE	1734617314	ST-qc17pq	csn=5wUUhBlk3oio-LaL&itct=CJgBEPxaGAEiEwjS5_CAgbSKAxUhgWMGHVtTAEwyBnNlYXJjaFIUY29weXJpZ2h0IGZyZWUgbXVzaWOaAQMQ9CQ%3D
+.youtube.com	TRUE	/	FALSE	1734617324	ST-1pti0rh	csn=gMqIUKMgoYqkie4k&itct=CJ0BEPxaGAAiEwiBxamGgbSKAxX4gWMGHaSrLN4yBnNlYXJjaFIPY29weXJpZ2h0IGZyZWUgmgEDEPQk
+.youtube.com	TRUE	/	FALSE	1734617390	ST-g8hrmy	csn=IbcUdQ7Q2lEwxzkD&itct=CKABEOqeBBgBIhMIso6jiIG0igMVWYFjBh0vdAWI
