@@ -14,11 +14,7 @@ from Dfschinnamusic.utils.decorators.language import language, languageCB
 from Dfschinnamusic.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
-###Commands
-QUEUE_COMMAND = get_command("QUEUE_COMMAND")
-
 basic = {}
-
 
 def get_image(videoid):
     try:
