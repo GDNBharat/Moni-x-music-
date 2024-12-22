@@ -13,7 +13,7 @@ async def gen_thumb(videoid):
         return f"https://img.youtube.com/vi/{videoid}/maxresdefault.jpg"
 
 
-async def gen_qthumb(vidid):
+async def gen_thumb(vidid):
     try:
         query = f"https://www.youtube.com/watch?v={vidid}"
         results = VideosSearch(query, limit=1)
