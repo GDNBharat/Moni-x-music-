@@ -123,9 +123,7 @@ async def start_pm(client, message: Message, _):
 
                 userss_photo = await app.download_media(
                     message.chat.photo.big_file_id,
-                )
-            else:
-        
+                )  
         out = private_panel(_)
         await message.reply_sticker("CAACAgEAAxkBAAJYdWZLJQqyG4fMdFFHFbTZDZPczqfnAAJUAgACODjZR-6jaMt58aQENQQ")
         await message.reply_video(
