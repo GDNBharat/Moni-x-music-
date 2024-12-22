@@ -41,7 +41,7 @@ def get_duration(playing):
     & ~BANNED_USERS
 )
 @language
-async def get_queue(client, message: Message, _):
+async def gen_queue(client, message: Message, _):
     if message.command[0][0] == "c":
         chat_id = await get_cmode(message.chat.id)
         if chat_id is None:
