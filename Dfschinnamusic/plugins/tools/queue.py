@@ -1,18 +1,18 @@
 import asyncio
+import os
 
 from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from config import BANNED_USERS
-from strings import get_command
 from Dfschinnamusic import app
 from Dfschinnamusic.misc import db
-from Dfschinnamusic.utils import Dfsbin, get_channeplayCB, seconds_to_min
+from Dfschinnamusic.utils import DfsBin, get_channeplayCB, seconds_to_min
 from Dfschinnamusic.utils.database import get_cmode, is_active_chat, is_music_playing
 from Dfschinnamusic.utils.decorators.language import language, languageCB
 from Dfschinnamusic.utils.inline import queue_back_markup, queue_markup
+from config import BANNED_USERS
 
 ###Commands
 QUEUE_COMMAND = get_command("QUEUE_COMMAND")
