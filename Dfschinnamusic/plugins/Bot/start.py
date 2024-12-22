@@ -85,45 +85,6 @@ async def start_pm(client, message: Message, _):
                     text=f"{message.from_user.mention} ᴊᴜsᴛ sᴛᴀʀᴛᴇᴅ ᴛʜᴇ ʙᴏᴛ ᴛᴏ ᴄʜᴇᴄᴋ <b>ᴛʀᴀᴄᴋ ɪɴғᴏʀᴍᴀᴛɪᴏɴ</b>.\n\n<b>ᴜsᴇʀ ɪᴅ :</b> <code>{message.from_user.id}</code>\n<b>ᴜsᴇʀɴᴀᴍᴇ :</b> @{message.from_user.username}",
                 )
     else:
-
-        try:
-            out = music_start_panel(_)
-            Dfs= await message.reply_text(f"**ᴅιиg ᴅσиg ꨄ︎❣️.....**")
-            await Dfs.edit_text(f"**ᴅιиg ᴅσиg ꨄ︎.❣️....**")
-            await Dfs.edit_text(f"**ᴅιиg ᴅσиg ꨄ︎..❣️...**")
-            await Dfs.edit_text(f"**ᴅιиg ᴅσиg ꨄ︎...❣️..**")
-            await Dfs.edit_text(f"**ᴅιиg ᴅσиg ꨄ︎....❣️.**")
-            await Dfs.edit_text(f"**ᴅιиg ᴅσиg ꨄ︎.....❣️**")
-
-            await Dfs.delete()
-            Dfs = await message.reply_text("**⚡ѕ**")
-            await asyncio.sleep(0.1)
-            await Dfs.edit_text("**⚡ѕт**")
-            # await asyncio.sleep(0.1)
-            await Dfs.edit_text("**⚡ѕтα**")
-            #  await asyncio.sleep(0.1)
-            await Dfs.edit_text("**⚡ѕтαя**")
-            # await asyncio.sleep(0.1)
-            await Dfs.edit_text("**⚡ѕтαят**")
-            # await asyncio.sleep(0.1)
-            await Dfs.edit_text("**⚡ѕтαятι**")
-            # await asyncio.sleep(0.1)
-            await Dfs.edit_text("**⚡ѕтαятιи**")
-            # await asyncio.sleep(0.1)
-            await Dfs.edit_text("**⚡ѕтαятιиg**")
-            # await asyncio.sleep(0.1)
-            await Dfs.edit_text("**⚡ѕтαятιиg.**")
-            await asyncio.sleep(0.1)
-            await Dfs.edit_text("**⚡ѕтαятιиg....**")
-            await asyncio.sleep(0.1)
-            await Dfs.edit_text("**⚡ѕтαятιиg.**")
-            await asyncio.sleep(0.1)
-            await Dfs.edit_text("**⚡ѕтαятιиg....**")
-            if message.chat.photo:
-
-                userss_photo = await app.download_media(
-                    message.chat.photo.big_file_id,
-                )  
         out = private_panel(_)
         await message.reply_sticker("CAACAgEAAxkBAAJYdWZLJQqyG4fMdFFHFbTZDZPczqfnAAJUAgACODjZR-6jaMt58aQENQQ")
         await message.reply_video(
